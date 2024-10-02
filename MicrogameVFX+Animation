@@ -1,0 +1,10 @@
+Considering this is an animation and VFX assignment, I decided to focus on specific gameobjects that would be enhanced through the inclusion of these features. 
+For animation, I added a rotation property to the security cameras. This addition gives them a more natural feel compared to the stiff objects they were beforehand. It wasn't too difficult to implement the animation, 
+but for some reason adding a new keyframe would always add a "position" property. This shifted the base of the camera (the part I was animating) a little, making the keyframes not blend as easily.
+Simply deleting this property fixed this problem.
+Another animation I added was for the jetpack powerup. I made it bob up and down as well as spinning it around in a 360-degree rotation. This inclusion gives more impact for the player to notice it as well as being 
+nice to look at.
+Both of these animations were made by me.
+The VFX were added in two areas; the fallen barrels and the jetpack. The VFX for the barrels are green, smoke-like particles that flow out of the openings of the two objects in the environment. The particle's texture 
+comes from the pre-installed microgame files. The only trouble I had was finding the right shape that would fit the expulsion effect I was going for (like a leak). The other effect on the jetpack is a sphere particle
+effect, using pre-installed star textures with a yellow tint to enhanced the "wow" factor of finding the powerup.
